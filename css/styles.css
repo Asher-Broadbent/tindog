@@ -123,3 +123,45 @@ body {
 .space-card {
   margin-top: 20px;
 }
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+#cta h3 {
+  color: white;
+  font-size: 2rem;
+  font-family: Montserrat;
+  font-weight: 900;
+  line-height: 1.5;
+}
+#cta button {
+  margin: 6% 2%;
+}
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 7% 15% 2%;
+
+}
+#footer p {
+ color: grey;
+}
+#footer i {
+  margin: 20px 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+  .main-img {
+    position: static;
+    transform: rotate(0);
+  }
+#title {
+  text-align: center;
+}
+
+}
